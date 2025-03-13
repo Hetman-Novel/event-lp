@@ -8,9 +8,9 @@
    <meta name="theme-color" content="#ffffff">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap&_v=20250312015726" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap&_v=20250313015917" rel="stylesheet">
 
-	<link rel='stylesheet' href='https://noem.ai/wp-content/themes/noemai-new/assets/css/style.min.css?_v=20250312015726'>
+	<link rel='stylesheet' href='https://noem.ai/wp-content/themes/noemai-new/assets/css/style.min.css?_v=20250313015917'>
 <style id="wp-custom-css">
 h1.intro__heading {
 font-size: 11rem;
@@ -72,8 +72,8 @@ margin-top: 2px;
     
 	
 	<title>Create your very own VIRTUAL “Mini-ME”</title>
-   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20250312015726">
-   <link rel="stylesheet" href="css/new-page.min.css?_v=20250312015726">
+   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20250313015917">
+   <link rel="stylesheet" href="css/new-page.min.css?_v=20250313015917">
 </head>
 <body class="new-landing-page">
 	<div class="wrapper">
@@ -120,7 +120,11 @@ margin-top: 2px;
 						</div>
 					</div>
 				</div>
-				<img class="first-screen__bg" src="images/fs-bg.jpg" alt="">
+				<picture>
+					<source media="(min-width:481px)" srcset="images/fs-bg.jpg">
+					<source media="(max-width:480px)" srcset="images/fs-bg-mobile.jpg">
+					<img class="first-screen__bg" src="images/fs-bg.jpg" alt="">
+				</picture>
 			</section>
 		
 			<div class="block-bg-light-grayish-blue-color">
@@ -208,7 +212,16 @@ margin-top: 2px;
 							<img class="join-us__element top-left" src="images/svg/join-us-element-left-top.svg" alt="">
 							<img class="join-us__element top-center" src="images/svg/join-us-element-center-top.svg" alt="">
 							<img class="join-us__element bottom" src="images/svg/join-us-element-bottom.svg" alt="">
-							<img class="join-us__grid" src="images/join-us-grid.png" alt="">
+							<picture>
+								<source media="(max-width:575px)" srcset="images/join-us-bg-mobile.jpg">
+								<img class="join-us__bg-mobile" src="images/join-us-bg-mobile.jpg" alt="">
+							</picture>
+							<picture>
+								<source media="(min-width:961px)" srcset="images/join-us-grid.png">
+								<source media="(max-width:960px)" srcset="images/join-us-grid-tablet.png">
+								<source media="(max-width:480px)" srcset="images/join-us-grid-mobile.png">
+								<img class="join-us__grid" src="images/join-us-grid.png" alt="">
+							</picture>
 						</section>
 
 						<div class="wrap-blockquote indent-override">
@@ -603,8 +616,8 @@ margin-top: 2px;
    </div>
 </footer>
 	</div>
-   <script src="js/script.min.js?_v=20250312015726"></script>
-   <script src="files/swiper/js/swiper-bundle.min.js?_v=20250312015726"></script>
-   <script src="files/swiper/js/init.js?_v=20250312015726"></script>
+   <script src="js/script.min.js?_v=20250313015917"></script>
+   <script src="files/swiper/js/swiper-bundle.min.js?_v=20250313015917"></script>
+   <script src="files/swiper/js/init.js?_v=20250313015917"></script>
 </body>
 </html>
