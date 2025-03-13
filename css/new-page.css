@@ -1355,10 +1355,12 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 .first-screen__title img.pinion {
-  height: 98px;
+  height: 80px;
+  margin-left: 12px;
+  margin-right: 15px;
   position: relative;
-  top: 15px;
-  width: 98px;
+  top: 25px;
+  width: 80px;
 }
 
 .first-screen__title img.photo {
@@ -2648,9 +2650,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   }
 
   .first-screen__title img.pinion {
-    height: 95px;
-    top: 8px;
-    width: 95px;
+    top: 15px;
   }
 }
 
@@ -2933,13 +2933,16 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   .first-screen__title {
     font-size: 64px;
+    line-height: 1.4;
     margin: 28px 0 5px;
   }
 
   .first-screen__title img.pinion {
-    height: 90px;
-    top: -3px;
-    width: 90px;
+    height: 74px;
+    margin-left: 5px;
+    margin-right: 4px;
+    top: 9px;
+    width: 74px;
   }
 
   .first-screen__title img.photo {
@@ -3382,13 +3385,16 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .first-screen__title {
     font-size: 36px;
     line-height: 1.34;
-    margin: 20px 0 19px;
+    max-width: 392px;
+    margin: 20px auto 19px;
   }
 
   .first-screen__title img.pinion {
-    height: 42px;
-    top: 2px;
-    width: 42px;
+    height: 32px;
+    margin-left: 3px;
+    margin-right: 3px;
+    top: 8px;
+    width: 32px;
   }
 
   .first-screen__title img.photo {
@@ -3709,6 +3715,12 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .footer__menu ul li a {
     font-size: 14px;
     line-height: 130%;
+  }
+}
+
+@media screen and (max-width: 360.98px) {
+  .first-screen__title {
+    max-width: 285px;
   }
 }
 
