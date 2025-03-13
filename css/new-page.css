@@ -2047,6 +2047,11 @@ body._touch .header .menu__list > li._active .menu__arrow {
   transform: translate(0, -50%);
 }
 
+.reviews__wrap-slider .reviews-slider__arrow svg rect,
+.reviews__wrap-slider .reviews-slider__arrow svg path {
+  transition: 0.3s ease 0s;
+}
+
 .reviews-slider {
   position: relative;
 }
@@ -3704,6 +3709,17 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .footer__menu ul li a {
     font-size: 14px;
     line-height: 130%;
+  }
+}
+
+@media (any-hover) {
+  .reviews__wrap-slider .reviews-slider__arrow:hover svg path {
+    stroke: #fff;
+    fill: #0160CC;
+  }
+
+  .reviews__wrap-slider .reviews-slider__arrow:hover svg rect {
+    fill: #0160CC;
   }
 }
 
